@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang='ces'>
+<head>
+            <title>Prague</title>
+<style>
+  thead {color:green;}
+tbody {color:blue;}
+tfoot {color:green;}
+table, th, td {
+  border: 3px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+    dd { 
+  margin-left: 25px;
+}
+dt {
+  display: block;
+}
+
+* {box-sizing: border-box}
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+.tablink:hover {
+  background-color: #777;
+}
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+#Home {background-image: url("https://wallpaperaccess.com/full/41212.jpg");}
+#News {background-color: green;}
+#Contact {background-image: url("https://wallpaperaccess.com/full/41211.jpg");}
+#About {background-color: white;}
+</style>
+</head>
+<body>
+<button class="tablink" onclick="openPage('Home', this, 'red')">Prague</button>
+<button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
+<button class="tablink" onclick="openPage('Contact', this, 'blue')">Office</button>
+<button class="tablink" onclick="openPage('About', this, 'black')">About</button>
+<div id="Home" class="tabcontent">
+</div>
+<div id="News" class="tabcontent">
+  <h1>News</h1>
+  <h2>Corona Virus:</h2>
+  <p><b>Health Minister Adam Vojtech demands:</b><ol>
+  <li>be at home </li>
+  <li> out just for shoping or walking whit dog</li>
+</ol><br>Prague, March 28 (CTK) – The Czech Republic had 2,422 confirmed coronavirus infection cases this morning, their number rose by 373 on Friday, which is the so far highest daily increase, according to the data from the <a href="http://www.mzcr.cz/Cizinci/obsah/ministry-of-health_1909_23.html"><i>Health Ministr’s website</i></a><br><a>
+  <img src="https://banner2.cleanpng.com/20180303/xew/kisspng-virus-insect-sterilization-sterilized-insect-viruses-5a9aba6bda4f25.8100713515200897078942.jpg" alt=virus style="width:42px;height:42px;border:0;">
+</a><br><hr><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/face-with-medical-mask_1f637.png" alt="corona"><br>
+<ul>
+  <li>USA-more allmoust 90k infected </li>
+  <li>Italy-more allmoust 80k infected</li>
+  <li>China-more allmoust 80k infected</li>
+</ul> 
+</div>
+<div id="Contact" class="tabcontent">
+</div>
+<div id="About" class="tabcontent">
+  <h1>Number of infected</h1>
+<dl>
+  <dt>CR</dt>
+  <dd>more then 2k</dd>
+  <dt>Prague</dt>
+  <dd>more then 450</dd>
+  <hr>
+  <h3>If you feeel infectid send your email and adres</h3>
+  <form action="/action_page.php">
+  <label for="fname">Email:</label><br>
+  <input type="text" id="fname" name="fname" value="Nicka@seznam.cz"><br>
+  <label for="lname">Address:</label><br>
+  <input type="text" id="lname" name="lname" value="Prague"><br><br>
+    <label for="cars">Choose Prague number:</label>
+<select id="cars" name="carlist" form="carform">
+  <option value="volvo">1</option>
+  <option value="saab">2</option>
+  <option value="opel">3</option>
+  <option value="audi">4</option>
+</select> <br>
+<form action="/action_page.php">
+  <p>Please select your gender:</p>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label> <br> <br>
+  <input type="submit" value="Send ">
+</form>
+
+
+</dl>
+<table style="width:100%">
+<thead>
+  <tr bgcolor="#FF0000">
+    <th>jedna</th>
+    <th>jedna</th> 
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+  </tr>
+  </thead>
+ <tbody>
+  <tr>
+    <th>jedna</th>
+    <th>jedna</th> 
+    <th>jedna</th>
+    <th>jedna</th>
+    <td rowspan="2">jedna</td>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <td colspan="2">jedna</th>
+  </tr>
+   <tr>
+    <th>jedna</th>
+    <th>jedna</th> 
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+  </tr>
+  </thead>
+    <tr>
+    <th>jedna</th>
+    <th>jedna</th> 
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+  </tr>
+    <tr>
+    <th>jedna</th>
+    <th>jedna</th> 
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+  </tr>
+    <tr>
+    <th>jedna</th>
+    <th>jedna</th> 
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+  </tr>
+    <tr>
+    <th>jedna</th>
+    <th>jedna</th> 
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+  </tr>
+    <tr>
+    <th>jedna</th>
+    <th>jedna</th> 
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+  </tr>
+    <tr>
+    <th>jedna</th>
+    <th>jedna</th> 
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+  </tr>
+  </tbody>
+  <tfoot>
+  <tr bgcolor="#FF0000">
+    <th>jedna</th>
+    <th>jedna</th> 
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+    <th>jedna</th>
+  </tr>
+  </tfoot>
+</table>
+<br>
+</div>
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+document.getElementById("defaultOpen").click();
+</script>
+</body>
