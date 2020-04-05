@@ -1,0 +1,62 @@
+img {
+ width:42px;
+ height:42px;
+ border:0
+}
+thead {color:green;
+       background-color: red; }
+tbody {color:blue;}
+tfoot {color:green;
+        background-color: red;}
+table {
+  width:100%;
+  border: 3px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+    dd { 
+  margin-left: 25px;
+}
+dt {
+  display: block;
+}
+* {box-sizing: border-box}
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+.tablink:hover {
+  background-color: #777;
+}
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+#Prague {background-image: url("https://wallpaperaccess.com/full/41212.jpg");}
+#News {background-color: green;}
+#foto {background-image: url("https://wallpaperaccess.com/full/41211.jpg");}
+#virus {background-color: white;}
+h1   {color: blue;}
+p    {color: red;}
+li  {color:red}
+h2   {color: black;}
+h3   {color: black;}
+h4   {color: black;}
+h5   {color: black;}
