@@ -1,67 +1,16 @@
 <!DOCTYPE html>
 <html lang='cs'>
 <head>
+    <link href="CSS/Styles.css" rel="stylesheet"> 
             <meta charset="UTF-8">
             <title>Prague</title>
-<style>
-thead {color:green;
-       background-color: red; }
-tbody {color:blue;}
-tfoot {color:green;
-        background-color: red;}
-table, th, td {
-  border: 3px solid black;
-  border-collapse: collapse;
-}
-th, td {
-  padding: 15px;
-  text-align: left;
-}
-    dd { 
-  margin-left: 25px;
-}
-dt {
-  display: block;
-}
-
-* {box-sizing: border-box}
-body, html {
-  height: 100%;
-  margin: 0;
-  font-family: Arial;
-}
-.tablink {
-  background-color: #555;
-  color: white;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 17px;
-  width: 25%;
-}
-.tablink:hover {
-  background-color: #777;
-}
-.tabcontent {
-  color: black;
-  display: none;
-  padding: 100px 20px;
-  height: 100%;
-}
-#Home {background-image: url("https://wallpaperaccess.com/full/41212.jpg");}
-#News {background-color: green;}
-#Contact {background-image: url("https://wallpaperaccess.com/full/41211.jpg");}
-#About {background-color: white;}
-</style>
 </head>
 <body>
-<button class="tablink" onclick="openPage('Home', this, 'red')">Prague</button>
+<button class="tablink" onclick="openPage('Prague', this, 'red')">Prague</button>
 <button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
-<button class="tablink" onclick="openPage('Contact', this, 'blue')">Office</button>
-<button class="tablink" onclick="openPage('About', this, 'black')">About</button>
-<div id="Home" class="tabcontent">
+<button class="tablink" onclick="openPage('foto', this, 'blue')">foto</button>
+<button class="tablink" onclick="openPage('virus', this, 'black')">virus</button>
+<div id="Prague" class="tabcontent">
 </div>
 <div id="News" class="tabcontent">
   <h1>News</h1>
@@ -70,29 +19,29 @@ body, html {
   <li>be at home </li>
   <li> out just for shoping or walking whit dog</li>
 </ol><br>Prague, March 28 (CTK) – The Czech Republic had 2,422 confirmed coronavirus infection cases this morning, their number rose by 373 on Friday, which is the so far highest daily increase, according to the data from the <a href="http://www.mzcr.cz/Cizinci/obsah/ministry-of-health_1909_23.html"><i>Health Ministr’s website</i></a><br><a>
-  <img src="https://banner2.cleanpng.com/20180303/xew/kisspng-virus-insect-sterilization-sterilized-insect-viruses-5a9aba6bda4f25.8100713515200897078942.jpg" alt=virus style="width:42px;height:42px;border:0;">
+  <img src="https://banner2.cleanpng.com/20180303/xew/kisspng-virus-insect-sterilization-sterilized-insect-viruses-5a9aba6bda4f25.8100713515200897078942.jpg" alt=virus >
 </a><br><hr><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/face-with-medical-mask_1f637.png" alt="corona"><br>
-<ul>
+<ul id="obeti">
   <li>USA-more allmoust 90k infected </li>
   <li>Italy-more allmoust 80k infected</li>
   <li>China-more allmoust 80k infected</li>
 </ul> 
 </div>
-<div id="Contact" class="tabcontent">
+<div id="foto" class="tabcontent">
 </div>
-<div id="About" class="tabcontent">
+<div id="virus" class="tabcontent">
   <h1>Number of infected</h1>
-<dl>
-  <dt>Czech Republick</dt>
-  <dd>  more then 2k</dd>
-  <dt>Capital city of Prague</dt>
-  <dd>  more then 4h</dd>
+  <dl>
+      <dt><h2>Czech Republick<h2></dt>
+                  <dd><h4>more then 2k<h4></dd>
+                              <dt><h2>Capital city of Prague<h2></dt>
+                                          <dd><h4>more then 4h<h4></dd>
  </dl>
-  <b>If you feeel infectid send your email and adres</b>
+  <b><h3>If you feeel infectid send your email and adres<h3></b>
   <br>
-  Email:<br>
+  <h5>Email:</h5>
   <input type="text" id="fname" name="fname" value="Nicka@seznam.cz"><br>
-  <label for="lname">Address:</label> <br>
+  <label for="lname"><h5>Address:<h5></label> 
   <input type="text" id="lname" name="lname" value="Prague"><br><br>
   <label for="Prague">Choose Prague number:</label>
   <select id="Prague">
@@ -110,7 +59,7 @@ body, html {
   <input type="radio" id="other" name="gender" value="other">
   <label for="other">Other</label> <br> <br>
   <input type="submit" value="Send ">
-<table style="width:100%">
+<table>
 <thead>
   <tr>
     <th>jedna</th>
